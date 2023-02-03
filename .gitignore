@@ -1,0 +1,8 @@
+## Ignore all files in the node_modules folder
+node_modules/
+
+## Ignore all yarn files
+yarn.lock
+
+## Ignore all .env files
+.env
