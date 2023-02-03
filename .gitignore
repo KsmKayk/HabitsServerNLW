@@ -4,5 +4,8 @@ node_modules/
 ## Ignore all yarn files
 yarn.lock
 
+## Ignore all vscode files
+.vscode/
+
 ## Ignore all .env files
 .env
