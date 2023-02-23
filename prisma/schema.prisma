@@ -15,11 +15,12 @@ datasource db {
 }
 
 model Habit {
-  id         String          @id @default(uuid())
+  id         String   @id @default(uuid())
   title      String
-  created_at DateTime        @default(now())
-  dayHabits  DayHabit[]
-  weekDays   HabitWeekDays[]
+  created_at DateTime @default(now())
+
+  dayHabits DayHabit[]
+  weekDays  HabitWeekDays[]
 
   @@map("habits")
 }
